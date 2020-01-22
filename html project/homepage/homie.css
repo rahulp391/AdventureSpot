@@ -1,0 +1,81 @@
+
+*{
+margin:0;
+padding:0;
+font-family:Century Gothic;
+}
+header
+{
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://4.bp.blogspot.com/-cCcmUN2iJHQ/VMqUlBgryYI/AAAAAAAADvY/y0nVxupVC1A/s1600/Fotolia_58030161_Subscription_L.jpg");
+height:1000;
+width=1000;
+background-size:cover;
+background-position:center;
+}
+ul
+{
+margin-top:20px;
+margin-left:10 px;
+list-style-type:none;
+float:right;
+}
+ul li
+{
+display:inline-block;
+}
+ul li a
+{
+text-decoration:none;
+color:#fff;
+padding:7px 25px;
+
+transiion:0.7s ease;
+}
+ul li a:hover
+{
+color:black;
+background-color:#fff;
+}
+ul li.first a
+{
+color:black;
+background-color:#fff;
+}
+
+
+.main
+{
+margin:auto;
+max-width:1300px;
+}
+.quote
+{
+position:absolute;
+top:38%;
+left:43%;
+transform:translate(-50%,-%50);
+}
+.quote h1
+{
+color:#fff;
+font-size:70px;
+}
+.button{
+position:absolute;
+top:120%;
+left:43%;
+transform:translate(-50%,-%50);
+}
+.btn
+{
+border:1px solid #fff;
+padding:10px 30px;
+color:#fff;
+text-decoration:none;
+font-size:40px;
+}
+.btn:hover
+{
+background-color:white;
+color:black;
+}
